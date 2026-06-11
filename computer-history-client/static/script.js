@@ -310,7 +310,7 @@ function resetConversation() {
         .then(response => response.json())
         .then(data => {
             // Clear chat messages
-            chatMessages.innerHTML = '<div class="welcome-message" role="status">Let\'s chat about computing history...</div>';
+            chatMessages.innerHTML = '<div class="welcome-message" role="status">Let\'s chat about your journie in jw.org...</div>';
             messageInput.focus();
 
             // Remove announcement after a short delay
